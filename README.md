@@ -3,7 +3,7 @@
 This is a two player math quiz game for kids, with Cozmo acting as a Quiz Master. The cubes can be used as buzzers. After Cozmo poses the question, whoever taps the cubes first, gets to answer the question. There are flash-cards with numbers, that the kids need to use, to form the answer.
 
 ## Video
-https://www.youtube.com/watch?v=RFI7NsObF2w&index=14&list=PLiWWaMjaY89MVIFR2vFqOSwl38NSUGrOI
+https://www.youtube.com/watch?v=RFI7NsObF2w
 
 ## Implementation Details
 This game uses Cozmo SDK’s Custom Markers to help Cozmo recognize numbers. We made flashcards with custom markers on one side and the number on the other. The questions.json file in the Resources folder has the list of questions that can be customized. The code will pick up the questions from this file for Cozmo to speak out. Each custom marker is mapped to a number. So, to form 30, the player will have to hold the 2 cards labelled 3 and 0 in front of Cozmo for him to see.
